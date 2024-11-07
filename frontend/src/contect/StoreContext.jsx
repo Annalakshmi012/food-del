@@ -8,7 +8,7 @@ const StoreContextProvider =(props)=>{
 
 
 const [cartItems,setCartItems]=useState({});
-const url="http://localhost:4000";
+const url="https://food-del-backend-cvvg.onrender.com";
 const [token,setToken]=useState("");
 const [food_list,setFoodList]=useState([]);
 const addToCart =async(itemId)=>{
